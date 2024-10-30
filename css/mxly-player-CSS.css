@@ -1,0 +1,47 @@
+/* CSS Document */
+	
+	body {
+		background: url(../images/backgroundGradient.gif);
+		background-color: #ececec;
+		margin: 0;
+		font: open sans;
+	}
+	
+	.title {
+		color: #7d90a4; 
+	
+	}
+	
+	a{
+		color: #7d90a4; font-family: 
+		open sans; text-decoration: 
+		none; border: 0 none; 
+		font-size: 1em; 
+	}
+
+	.jsmx_firstdivisionplayer{
+	
+		float: left;
+		align: left;
+		height: 85px;
+		width: 85px;
+	
+	}
+	
+	
+	.jsmx_secdivisionplayer{
+	
+		float: left;
+		align: left;
+		height: 85px;
+		width: 150px;
+		margin-left: 10px;
+	
+	}
+	
+	.jsmx_playertext{
+	
+		font-size: 1em;
+		color: #7d90a4;
+	
+	}

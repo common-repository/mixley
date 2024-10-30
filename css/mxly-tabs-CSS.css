@@ -1,0 +1,140 @@
+/* CSS Document */
+	
+	
+	ul.tabs{
+	
+		padding: 7px 0;
+		font-size: 0;
+		margin:0;
+		list-style-type: none;
+		text-align: right;
+		width: 680px;
+		
+	}
+			
+	ul.tabs li{
+	
+		display: inline;
+		margin: 0;
+		margin-right:3px;
+		
+	}
+			
+	ul.tabs li a{
+	
+		font: normal 12px Verdana;
+		text-decoration: none;
+		position: relative;
+		z-index: 1;
+		padding: 7px 16px;
+		border: 1px solid #CCC;
+		border-bottom-color:#B7B7B7;
+		color: #000;
+		background: #F0F0F0;
+		border-radius: 6px 6px 0px 0px;
+	    -moz-border-radius: 6px 6px 0px 0px;
+		outline:none;
+		
+	}
+	
+	ul.tabs li a:hover{
+	
+		border: 1px solid #B7B7B7;
+		background:#E0E0E0;
+		
+	}
+			
+	ul.tabs li.selected a{
+	
+		position: relative;
+		top: 0px;
+		font-weight:bold;
+		background: white;
+		border: 1px solid #B7B7B7;
+		border-bottom-color: white;
+		
+	}
+	
+	div.tabcontents{  
+	
+	    width: 640px;
+		border: 1px solid #B7B7B7; 
+		background-color:#FFF;
+		border-radius: 0 2px 2px 2px;
+		
+	}	  
+	
+	
+	
+	.tint {
+	 
+		position: relative;
+		float: left;
+		cursor: pointer;
+		-webkit-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+		-moz-box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+		box-shadow: rgba(0,0,0,.2) 3px 5px 5px;
+		
+	 }
+	  
+	 .tint:before {
+	  
+		content: "";
+		display: block;
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: rgba(0,0,0, 0.5);
+		-moz-transition: all .3s linear;
+		-webkit-transition: all .3s linear;
+		-ms-transition: all .3s linear;
+		-o-transition: all .3s linear;
+		transition: all .3s linear;
+		
+	 }
+	  
+	 .tint:hover:before {
+	  
+		background: none;
+		
+	 }
+	  
+    .module {
+	
+	  background: 
+		linear-gradient(
+		  rgba(0, 0, 0, 0.6),
+		  rgba(0, 0, 0, 0.6)
+		),
+		
+	  background-size: cover;
+	  width: 165px;
+	  height: 126px;
+	  position: relative;
+	 
+    }
+	
+    .top h2{
+	
+	  color: white;
+	  margin: 0;
+	  padding: 20px;
+	  
+   }
+	
+   .it {
+	
+		opacity: 0;
+		
+   }
+	
+   .it:hover {
+	
+		opacity: 1.0;
+		
+   }
+
+
+	
